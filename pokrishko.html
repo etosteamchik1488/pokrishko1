@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Покрышка — официальное резюме от Владa, 14 лет</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            background: #1a1a1a;
+            color: #d0d0d0;
+            font-family: 'Share Tech Mono', monospace;
+            margin: 0;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(90deg, #222222 70%, #282828 100%);
+            padding: 48px 24px 24px 24px;
+            text-align: center;
+            border-bottom: 2px solid #ff00cc;
+            box-shadow: 0 6px 24px #ff00cc88;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        h1 {
+            font-weight: 900;
+            font-size: 3em;
+            letter-spacing: 3px;
+            color: #ff00cc;
+            margin: 0 0 8px 0;
+            text-shadow: 0 2px #000000b0;
+        }
+        .subtitle {
+            font-size: 1.3em;
+            color: #ffaaffcc;
+            margin-bottom: 8px;
+            text-shadow: 0 1px #111111cc;
+        }
+        .photo-block {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin: 28px 0;
+        }
+        .photo-placeholder {
+            width: 180px;
+            height: 180px;
+            background: #2c2c2c;
+            border: 3px dashed #ff00cc;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #906090;
+            font-size: 1em;
+            user-select: none;
+        }
+        .content-section {
+            max-width: 750px;
+            margin: 28px auto;
+            padding: 28px 32px;
+            background: #2f2f2fdd;
+            border-radius: 24px;
+            box-shadow: 0 4px 20px #661166aa;
+            border: 1px solid #440044;
+            transition: box-shadow 0.3s;
+        }
+        .content-section:hover {
+            box-shadow: 0 8px 42px #ff00ccaa;
+        }
+        h2 {
+            color: #ff33cc;
+            font-size: 2em;
+            margin-bottom: 14px;
+            letter-spacing: 1.5px;
+        }
+        p {
+            line-height: 1.5em;
+            font-size: 1.1em;
+            color: #e0b0e0;
+        }
+        ul {
+            list-style: square inside;
+            padding-left: 1em;
+        }
+        li {
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #ff99ff;
+        }
+        .skills {
+            color: #ee44ee;
+        }
+        .joke {
+            font-style: italic;
+            color: #ff77ffcc;
+            margin-top: 16px;
+            user-select: none;
+        }
+        a {
+            color: #ff33cc;
+            text-decoration: underline dashed;
+        }
+        .disabled {
+            color: #ff5555;
+            font-weight: 700;
+        }
+        @media (max-width: 600px) {
+            header { padding: 24px 12px 12px 12px; }
+            h1 { font-size: 2em; }
+            h2 { font-size: 1.5em; }
+            .photo-placeholder {
+                width: 100px;
+                height: 100px;
+                font-size: 0.8em;
+            }
+            .photo-block { gap: 12px; }
+            .content-section { padding: 16px 24px; margin: 16px auto; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Покрышка</h1>
+        <div class="subtitle">Влад, 14 лет — геймер, Восхитительный, Ошеломительный, Сексуальный, Кэшезависимый, Решительный.</div>
+    </header>
+
+    <section class="photo-block">
+        <img src="2.png" alt="Покрышка" class="photo-real" />
+        <img src="1.png" alt="Покрышка" class="photo-real" />
+        <img src="3.png" alt="Покрышка" class="photo-real" />
+        <img src="4.png" alt="Покрышка" class="photo-real" />
+    </section>
+
+    <section class="content-section">
+        <h2>Привет, я Покрышка</h2>
+        <p>
+            Мне 14, я обожаю CS:GO и Aviasales — катаю не только в игре, но и в жизни.
+            Недавно сломал ногу (да-да, теперь двигаюсь, как мой пинг — с задержкой и периодическими тормозами).
+        </p>
+        <p>
+            у Даши Корейки родилась дочь - назвали Пидорас.
+        </p>
+        <p>
+            В реале я — гей, и да, у меня есть истории, которые можно рассказывать на вечеринках с черным юмором. Например, однажды я делал селфи с парнем, а телефон упал в унитаз — знак, что надо менять и гаджет, и парня?
+        </p>
+        <p>А ещё я могу быть настолько саркастичным, ЯЯЯГЕЕЕЕЕЕЕЕЕЙ.</p>
+    </section>
+
+    <section class="content-section">
+        <h2>Навыки</h2>
+        <ul>
+            <li class="skills">CS:GO — умею убивать кастомных игроков и уклоняться от хейтеров</li>
+            <li class="skills">Aviasales — нахожу самые дешёвые авиабилеты, чтобы свалить от надоевших</li>
+            <li class="skills">Геймерский острый язык — могу колко подсечь даже своЕ ОЧКО</li>
+            <li class="skills">Монтаж видео и мемов — иногда моё чувство юмора чернильнее тёмной материи</li>
+            <li class="skills">Выдержка боли — после перелома ноги теперь играю 24/7, совершенствуя хейтлист</li>
+        </ul>
+        <div class="joke">
+            Мой юмор настолько чёрный, что он отказывается работать без лицензии на сарказм. Я ПОЗИТИВНЫЙЙЙЙ ИНВАЛИИИИД
+        </div>
+    </section>
+
+    <section class="content-section">
+        <h2>Гейские ситуации из жизни</h2>
+        <ul>
+            <li>Пытался объяснить маме, что мой парень — не просто “тот странный, кто у меня в друзьях”. Реакция была примерно как баг в Windows — сбой и откат.</li>
+            <li>Играл в CS:GO с парнем, когда сервак упал — единственный момент, когда игра перестала лагать, а я начал краснеть от стыда.</li>
+            <li>Знакомился с новым парнем через Discord, а потом понял, что это был бот — и бот оказался адекватнее моего последнего свидания.</li>
+            <li>Сломанная нога — отличный повод вместо прогулок устраивать геймерские марафоны с подружками — правда, теперь меня зовут “Покрышка с приколом”.</li>
+        </ul>
+        <div class="joke">
+            Умный в гору не пойдет - умный гору обосрет.
+        </div>
+    </section>
+
+    <section class="content-section">
+        <h2>Контакты и связь</h2>
+        <ul>
+            <li>Telegram: <a href="#">@neizdanoemnoy</a></li>
+            <li>TT: https://www.tiktok.com/@vlados4951</a></li>
+        </ul>
+        <p style="color:#aa66aa; font-size: 0.95em;">
+            Пиши, если не боишься огромного черного страпона!
+        </p>
+    </section>
+</body>
+</html>
